@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "recrutor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recrutor/RecrutorWebPart.js",
+          "manifest": "./src/webparts/recrutor/RecrutorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RecrutorWebPartStrings": "lib/webparts/recrutor/loc/{locale}.js"
+  }
+}
